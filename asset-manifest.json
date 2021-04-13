@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jabed-webpage/static/css/main.18affbd7.chunk.css",
-    "main.js": "/jabed-webpage/static/js/main.3ba65e56.chunk.js",
-    "main.js.map": "/jabed-webpage/static/js/main.3ba65e56.chunk.js.map",
+    "main.js": "/jabed-webpage/static/js/main.879d9485.chunk.js",
+    "main.js.map": "/jabed-webpage/static/js/main.879d9485.chunk.js.map",
     "runtime-main.js": "/jabed-webpage/static/js/runtime-main.65bd3134.js",
     "runtime-main.js.map": "/jabed-webpage/static/js/runtime-main.65bd3134.js.map",
-    "static/js/2.fe650259.chunk.js": "/jabed-webpage/static/js/2.fe650259.chunk.js",
-    "static/js/2.fe650259.chunk.js.map": "/jabed-webpage/static/js/2.fe650259.chunk.js.map",
+    "static/js/2.d987c396.chunk.js": "/jabed-webpage/static/js/2.d987c396.chunk.js",
+    "static/js/2.d987c396.chunk.js.map": "/jabed-webpage/static/js/2.d987c396.chunk.js.map",
     "static/js/3.185ba5dd.chunk.js": "/jabed-webpage/static/js/3.185ba5dd.chunk.js",
     "static/js/3.185ba5dd.chunk.js.map": "/jabed-webpage/static/js/3.185ba5dd.chunk.js.map",
     "index.html": "/jabed-webpage/index.html",
     "static/css/main.18affbd7.chunk.css.map": "/jabed-webpage/static/css/main.18affbd7.chunk.css.map",
-    "static/js/2.fe650259.chunk.js.LICENSE.txt": "/jabed-webpage/static/js/2.fe650259.chunk.js.LICENSE.txt",
+    "static/js/2.d987c396.chunk.js.LICENSE.txt": "/jabed-webpage/static/js/2.d987c396.chunk.js.LICENSE.txt",
     "static/media/TRU_Logo.938848a0.png": "/jabed-webpage/static/media/TRU_Logo.938848a0.png",
     "static/media/App.scss": "/jabed-webpage/static/media/TitilliumWeb-SemiBold.fee7cf97.woff",
     "static/media/envelope.7237e68b.svg": "/jabed-webpage/static/media/envelope.7237e68b.svg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.65bd3134.js",
-    "static/js/2.fe650259.chunk.js",
+    "static/js/2.d987c396.chunk.js",
     "static/css/main.18affbd7.chunk.css",
-    "static/js/main.3ba65e56.chunk.js"
+    "static/js/main.879d9485.chunk.js"
   ]
 }
