@@ -12,6 +12,7 @@ import Talks from './Talks';
 function Main(){
     return(
         <section className='pageContent'>
+            <Home />
             <BrowserRouter>
                 <Switch>
                     <Redirect from='/home' to='/' />
