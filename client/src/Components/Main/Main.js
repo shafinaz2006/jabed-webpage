@@ -13,7 +13,7 @@ function Main(){
     return(
         <section className='pageContent'>
             <Home />
-            <HashRouter basename="/">
+            <HashRouter>
                 <Switch>
                     <Redirect from='/home' to='/' />
                     <Route path='/' exact component={Home} />
