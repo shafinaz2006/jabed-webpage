@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/jabed-webpage/static/css/main.fcd805eb.chunk.css",
+    "main.js": "/jabed-webpage/static/js/main.c94bd467.chunk.js",
+    "main.js.map": "/jabed-webpage/static/js/main.c94bd467.chunk.js.map",
+    "runtime-main.js": "/jabed-webpage/static/js/runtime-main.65bd3134.js",
+    "runtime-main.js.map": "/jabed-webpage/static/js/runtime-main.65bd3134.js.map",
+    "static/js/2.67ed2891.chunk.js": "/jabed-webpage/static/js/2.67ed2891.chunk.js",
+    "static/js/2.67ed2891.chunk.js.map": "/jabed-webpage/static/js/2.67ed2891.chunk.js.map",
+    "static/js/3.185ba5dd.chunk.js": "/jabed-webpage/static/js/3.185ba5dd.chunk.js",
+    "static/js/3.185ba5dd.chunk.js.map": "/jabed-webpage/static/js/3.185ba5dd.chunk.js.map",
+    "index.html": "/jabed-webpage/index.html",
+    "static/css/main.fcd805eb.chunk.css.map": "/jabed-webpage/static/css/main.fcd805eb.chunk.css.map",
+    "static/js/2.67ed2891.chunk.js.LICENSE.txt": "/jabed-webpage/static/js/2.67ed2891.chunk.js.LICENSE.txt",
+    "static/media/TRU_Logo.938848a0.png": "/jabed-webpage/static/media/TRU_Logo.938848a0.png",
+    "static/media/App.scss": "/jabed-webpage/static/media/TitilliumWeb-SemiBold.fee7cf97.woff",
+    "static/media/envelope.7237e68b.svg": "/jabed-webpage/static/media/envelope.7237e68b.svg",
+    "static/media/map.d9fe5579.svg": "/jabed-webpage/static/media/map.d9fe5579.svg",
+    "static/media/menu_white.f8235882.svg": "/jabed-webpage/static/media/menu_white.f8235882.svg",
+    "static/media/phone.7df015ac.svg": "/jabed-webpage/static/media/phone.7df015ac.svg",
+    "static/media/profilePic.8c6ff642.JPG": "/jabed-webpage/static/media/profilePic.8c6ff642.JPG",
+    "static/media/resume.f18f7945.pdf": "/jabed-webpage/static/media/resume.f18f7945.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65bd3134.js",
+    "static/js/2.67ed2891.chunk.js",
+    "static/css/main.fcd805eb.chunk.css",
+    "static/js/main.c94bd467.chunk.js"
+  ]
+}
