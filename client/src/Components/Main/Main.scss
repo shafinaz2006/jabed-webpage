@@ -1,0 +1,101 @@
+@import '../../Styles/abstracts/variables.scss';
+@import '../../Styles/abstracts/mixins.scss';
+.pageContent {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    @include tablet {
+        width: 60%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.heading {
+    padding-bottom: 0.5rem;
+    @include h2-sub-header;
+}
+
+.subHeading {
+    padding-bottom: 0.5rem;
+    // @include h3-labels-links-buttons;
+}
+
+.text {
+    &--bold {
+        font-weight: bold;
+    }
+    &--italic {
+        font-style: italic;
+    }
+}
+
+.home {
+    &__list {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+        @include tablet {
+            // padding-left: 2rem;
+        }
+    }
+    &__item {
+        padding-bottom: 0.5rem;
+    }
+    &__text {
+        padding-bottom: 1.5rem;
+    }
+}
+
+.committee {
+    &__item {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    &__date {
+        font-weight: bold;
+    }
+}
+
+.publications {
+    &__list {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    &__item {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    &__link {
+        font-size: 0.9rem;
+        display: block;
+    }
+}
+
+.awards {
+    &__list {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    &__item {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+.talks {
+    &__list {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    &__item {
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    &__link {
+        font-size: 0.9rem;
+        display: block;
+    }
+}

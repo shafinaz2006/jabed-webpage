@@ -1,0 +1,125 @@
+@import '../../Styles/abstracts/variables.scss';
+@import '../../Styles/abstracts/mixins.scss';
+.header {
+    &__logoContainer {
+        height: 6rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        @include tablet {
+            justify-content: flex-start;
+        }
+    }
+    &__logo {
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+        background-color: white;
+        @include tablet {
+            width: 60%;
+            object-fit: cover;
+        }
+        @include desktop {
+            width: 40%;
+        }
+    }
+    &__name {
+        @include h2-sub-header;
+    }
+    &__designation {
+        @include body-med;
+    }
+    &__info {
+        padding-left: 1rem;
+        background-color: $color-primary-bg;
+        color: white;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        @include tablet {
+            justify-content: flex-start;
+        }
+    }
+    &__menu {
+        padding-right: 1rem;
+        @include tablet {
+            display: none;
+        }
+    }
+}
+
+.nav {
+    &__mobile {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        // height: 3rem;
+        background-color: #e6e6e6;
+        padding-right: 1rem;
+    }
+    &__tablet {
+        display: none;
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            height: 3rem;
+            background-color: #e6e6e6;
+            padding-right: 1rem;
+        }
+    }
+    &__link {
+        color: $color-primary-bg;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        &:hover {
+            width: 100%;
+            background-color: $color-secondary;
+            color: white;
+            @include tablet {
+                width: auto;
+            }
+        }
+        &--active {
+            @include tablet {
+                background-color: $color-secondary;
+                color: white;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    display: block;
+    background-color: $color-primary-bg;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+        flex-direction: row;
+    }
+    &__text {
+        color: white;
+        font-size: 0.7rem;
+        &--2 {
+            color: white;
+            font-size: 0.7rem;
+            @include tablet {
+                padding-left: 0.5rem;
+            }
+        }
+    }
+}
