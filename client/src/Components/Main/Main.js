@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.scss';
 
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import Home from './Home';
 import Teaching from './Teaching';
 import Committee from './Committee';
@@ -13,7 +13,7 @@ function Main(){
     return(
         <section className='pageContent'>
             <Home />
-            <BrowserRouter>
+            <HashRouter basename="/">
                 <Switch>
                     <Redirect from='/home' to='/' />
                     <Route path='/' exact component={Home} />
@@ -23,7 +23,7 @@ function Main(){
                     <Route path='/awards' exact component={Awards} />
                     <Route path='/talks' exact component={Talks} />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         </section>
     );
 }
