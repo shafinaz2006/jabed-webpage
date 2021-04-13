@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.scss';
 
-import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, HashRouter,Switch, Route, Redirect } from "react-router-dom";
 import Home from './Home';
 import Teaching from './Teaching';
 import Committee from './Committee';
@@ -12,7 +12,6 @@ import Talks from './Talks';
 function Main(){
     return(
         <section className='pageContent'>
-            <Home />
             <HashRouter>
                 <Switch>
                     <Redirect from='/home' to='/' />

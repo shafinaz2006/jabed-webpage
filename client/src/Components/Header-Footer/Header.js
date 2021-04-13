@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import logo from '../../Assets/logo/TRU_Logo.png';
+import {Link} from 'react-router-dom';
 import menu_white from '../../Assets/icons/menu_white.svg';
 
 class Header extends React.Component {
@@ -28,9 +29,9 @@ class Header extends React.Component {
                     <img src={menu_white} alt='menu' onClick={this.displayMenu} className='header__menu'/>
                 </div>
                 <nav className={`${this.state.mobileMenu? 'nav__mobile': 'nav__tablet'}`}>
-                    <a href='/' className={`nav__link ${home? 'nav__link--active': ''}`}>Home  </a>
-                    <a href='/publications' className={`nav__link ${pathname.includes('publications')? 'nav__link--active': ''}`}>Publications</a>
-                    <a href='/awards' className={`nav__link ${pathname.includes('awards')? 'nav__link--active': ''}`}>Awards/Grants </a>
+                    <Link to='/' className={`nav__link`}>Home  </Link>
+                    <Link to='/publications' className={`nav__link`}>Publications</Link>
+                    <Link to='/awards' className={`nav__link`}>Awards/Grants </Link>
                     {/* <a href='/talks' className='nav__link'>Talks </a> */}
                     {/* <a href='/teaching' className='nav__link'>Teaching </a> */}
                     {/* <a href='/research' className='nav__link'>Research</a> */}
